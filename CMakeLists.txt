@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
 project(advent_of_code)
-add_compile_options(-Wall -Wextra -Wpedantic -O3 -std=c++17)
+add_compile_options(-Wall -Wextra -Wpedantic -std=c++17)
 add_subdirectory(day_1)
+add_subdirectory(day_2)
